@@ -1,0 +1,340 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .screen
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.99)),url(kesariya\ cover\ image.jpg);
+} */
+
+.screen
+{
+    background-repeat: no-repeat;
+    background-size :cover;
+    /* background-position: center; */
+    /* border: 2px solid red; */
+    height: 600px;
+}
+
+/* .header
+{ */
+    /* background-image: linear-gradient(rgba(0,0,0,0.96),rgb(0,0,0,0.85));
+    background-image: linear-gradient(to right,rgba(0,0,0,0.96),rgb(0,0,0,0.9)); */
+    /* background-color: black ; */
+    /* position: fixed;
+    left: 25px; */
+    /* min-width: 100px; */
+    /* float: left; */
+    /* height: 100%; */
+    /* padding-top: 35px; */
+    /* margin: 25px 25px 25px 0px;
+    border: 2px solid green; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* float: left; */
+/* } */
+
+/* .logo
+{
+    color: white;
+    display: flex; */
+    /* width: fit-content; */
+    /* margin: 20px 22px; */
+    /* align-items: center;
+    border: 2px solid red;
+} */
+
+/* .p
+{
+    font-size: 40px;
+} */
+
+.container  
+{
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+    /* border: 2px solid white;  */
+    /* margin-top: 60px; */
+    /* font-size: 20px; */
+    position: fixed;
+    left: 25px;
+    margin: 15px 25px 25px 0px;
+    /* border: 2px solid white; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center; */
+}
+
+.container ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container ul li
+{
+    list-style-type: none;
+    /* border: 2px solid red; */
+    /* margin-bottom: 40px; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 16px;
+    padding: 6px 8px;
+}
+
+.container ul li img
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    margin-right: 5px;
+}
+
+.ok-logo
+{
+    font-size: 30px;
+}
+
+.left-li:hover
+{
+    /* background: aliceblue; */
+    /* border: 2px solid red; */
+    cursor: pointer;
+    background-image: linear-gradient(rgba(217, 208, 208, 0.295),rgba(217, 208, 208, 0.295));
+}
+
+/* .left-li:active
+{
+    background-image: linear-gradient(rgba(217, 208, 208, 0.295),rgba(217, 208, 208, 0.295));
+} */
+
+
+/* .main-class
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.99)),url(kesariya\ cover\ image.jpg); */
+/* }  */
+
+.frclass img
+{
+    width: 200px;
+    height: 200px;
+}
+
+/* .full-display
+{
+    display: flex;
+} */
+
+.right-class
+{
+    float: right;
+    position: fixed;
+    right: 25px;
+    color: white;
+    margin: 25px 0px 25px 25px;
+    /* border: 2px solid white; */
+}
+
+.right-class ul li
+{
+    list-style-type: none;
+}
+
+.right-class h3
+{
+    margin: 15px 15px 5px 15px;
+    /* border: 2px solid green ; */
+}
+
+.right-li
+{
+    display: flex;
+    align-items: center;
+    /* margin: 15px; */
+    /* border: 2px solid red; */
+    /* background-image: linear-gradient(rgba(217, 208, 208, 0.295),rgba(217, 208, 208, 0.295)); */
+    border-radius: 8px;
+    min-width: 300px;
+}
+.right-li:hover
+{
+    /* background: aliceblue; */
+    /* border: 2px solid red; */
+    cursor: pointer;
+    background-image: linear-gradient(rgba(217, 208, 208, 0.295),rgba(217, 208, 208, 0.295));
+}
+
+/* .right-li p :hover
+{
+    text-decoration: none;
+} */
+
+.right-li img
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* .src p
+{
+    margin: 10px;
+} */
+
+.bottom
+{
+    width: 96%;
+    /* margin: 0 auto; */
+    border-radius: 8px;
+    /* border: 2px solid red; */
+    padding: 10px 10px;
+    position :fixed;
+    bottom: 8px;
+    left: 1%;
+    background-color: rgba(172, 16, 16, 0.623);
+    /* background-color: rgba(0, 0, 0,1); --just trying */
+    color: white;
+
+    /* margin-bottom: 0px;  */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+.bottom1
+{
+    display: flex;
+    /* justify-content: center; */
+}
+
+#progressBar
+{
+    width : 100%;
+    height: 3px;
+    background: grey;
+    /* color: white; */
+}
+
+#bottom-left
+{
+    float: left;
+    min-width: 200px;
+    display: flex;
+    /* border: 2px solid green; */
+    align-items: center;
+}
+
+#bottom-center
+{
+    margin: 0 auto;
+}
+
+#bottom-right
+{
+    float: right;
+    min-width: 200px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#bottom-center i
+{
+    margin: 6px 20px;
+    cursor: pointer;
+}
+
+/* input[type=range]
+{
+    -webkit-appearance: none;
+    /*overflow: hidden;
+     overflow-y: hidden; 
+     background: white;  
+}
+
+input[type=range]::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    height: 9px;
+    width: 9px;
+    border-radius: 9px;
+    /* box-shadow: -10px 0px 0px 0px red; 
+}
+
+ */
+
+input[type='range'] {
+    overflow: hidden;
+    /* width: 80px; */
+    -webkit-appearance: none;
+    cursor: pointer;
+    /* background-color: #9a905d; */
+  }
+  /* input[type='range']::-webkit-slider-runnable-track { */
+    /* height: 10px; */
+    /* -webkit-appearance: none; */
+    /* color: red; */
+    /* margin-top: -1px; */
+  /* } */
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor:pointer;
+    background: white;
+    box-shadow: -600px 0 0 600px white;
+  }
+
+/* input[type=range]:hover::-webkit-slider-thumb
+{
+    background: white;
+} */
+
+/* input[type=range]::-webkit-slider-runnable-track
+{
+    background: white;
+    height: 3px;
+} */
+
+/* input[type=range] {
+    -webkit-appearance: none; <------------------------------------ REQUIRED
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: /* ...change color with background property... ;
+    /* ...my custom edits...
+}
+
+input[type=range]:hover::-webkit-slider-runnable-track {
+    background:  ...change color with background property... ;
+    /* ...my custom edits... 
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; <------------------------------------ REQUIRED
+    height: /* ..manually set height greater than 0...  <-------- REQUIRED
+    width: /* ..manually set width greater than 0...  <---------- REQUIRED
+    background: /* ...change color with background property... ;
+    /* ...my custom edits... 
+}
+
+input[type=range]:hover::-webkit-slider-thumb {
+    background: /* ...change color with background property... ;
+    /* ...my custom edits... 
+} */
