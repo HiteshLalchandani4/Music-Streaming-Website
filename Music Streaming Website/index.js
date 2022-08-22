@@ -84,10 +84,12 @@ bottomLeft.innerHTML = `${songId[arr[1]]}`;
 // console.log(imgSrc);
 // console.log(encodeURI(imgSrc));
 // screen.style.backgroundImage = 'url(' + imgFrc + ')';
-const screen = document.querySelector('.screen');
+// const screen = document.querySelector('.screen');
 let imgSrc = "images/" + songId[arr[1]] + ".jpg";
 let imgFrc = encodeURI(imgSrc);
-screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+// screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+document.body.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(' + imgFrc + ')';
+
 
 // let frontClass = document.getElementsByClassName("frclass");
 // frontClass[0].innerHTML = `<img src="images/${songId[arr[1]]}.jpg" alt="img">`;
@@ -135,7 +137,8 @@ function updateAll() {
             updateAll();
             let imgSrc = "images/" + songId[arr[1]] + ".jpg";
             let imgFrc = encodeURI(imgSrc);
-            screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+            // screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+            document.body.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(' + imgFrc + ')';
 
         }
 
@@ -206,7 +209,8 @@ nextBtn.addEventListener('click', () => {
     // const screen = document.querySelector('.screen');
     let imgSrc = "images/" + songId[arr[1]] + ".jpg";
     let imgFrc = encodeURI(imgSrc);
-    screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+    // screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+    document.body.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(' + imgFrc + ')';
 
 });
 
@@ -235,9 +239,25 @@ function newSong(newId) {
     updateAll();
     let imgSrc = "images/" + songId[arr[1]] + ".jpg";
     let imgFrc = encodeURI(imgSrc);
-    screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+    // screen.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(' + imgFrc + ')';
+    document.body.style.cssText += 'background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(' + imgFrc + ')';
 
 }
+
+let rightClass = document.getElementsByClassName("right-class")[0];
+let check=0;
+
+document.getElementsByClassName("ok-logo")[0].addEventListener('click',()=>
+{
+    if(check===0){
+        rightClass.style.display = 'none';
+        check=1;
+    }
+    else{
+        rightClass.style.display = 'inline-block';
+        check=0;
+    }
+});
 
 console.log(arr, str);
 
